@@ -1,0 +1,71 @@
+{
+  "homeInfo": {
+    "title": "Main page",
+    "href": "welcome"
+  },
+  "logoInfo": {
+    "title": "Library",
+    "image": "images/logo.ico",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "Management",
+      "icon": "bi-list",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "Lending",
+          "href": "lendListIndex",
+          "icon": "bi-arrow-left-right",
+          "target": "_self"
+        },
+        {
+          "title": "Book",
+          "href": "bookIndex",
+          "icon": "bi-book",
+          "target": "_self"
+        },
+        {
+          "title": "Reader",
+          "href": "readerIndex",
+          "icon": "bi-person-badge",
+          "target": "_self"
+        },
+        {
+          "title": "Book type",
+          "href": "typeIndex",
+          "icon": "bi-file-text",
+          "target": "_self"
+        },
+        {
+          "title": "Announcement",
+          "href": "noticeIndexOfBack",
+          "icon": "bi-bell",
+          "target": "_self"
+        },
+        {
+          "title": "Administrator",
+          "href": "adminIndex",
+          "icon": "bi-person-circle",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "Statistical",
+      "icon": "bi-bar-chart",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "Book Statistical",
+          "href": "statisticIndex",
+          "icon": "bi-graph-up",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
